@@ -1,0 +1,26 @@
+#counter {
+  font-size: 50px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+}
+
+#resetbutton {
+  display: none;
+}
+
+.needsReset {
+  background-color: red;
+}
